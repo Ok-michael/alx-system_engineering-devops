@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '0 string SCHOOL School data file' | sudo tee /usr/share/misc/school.mgc >/dev/null && sudo file -C -m /usr/share/misc/school.mgc
+echo 'SCHOOL' | sudo tee /root/alx-system_engineering-devops/school.mgc >/dev/null && sudo file -C -m /root/alx-system_engineering-devops/school.mgc
