@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a | awk '{print $0 (NR>2 ? (substr($0, length($0))!="/" ? "," : "") : "")}' | sort -V | tr '\n' ','
