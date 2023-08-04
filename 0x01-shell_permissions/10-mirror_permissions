@@ -1,0 +1,3 @@
+#!/bin/bash
+import shutil
+shutil.copymode('olleh', 'hello')
