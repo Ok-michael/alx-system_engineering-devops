@@ -7,7 +7,8 @@ do
 	then
 		echo "Best School"
 	else
-		echo -e "Hi \nBest School"
+		echo "Hi"
+		echo "Best School"
 	fi
 	((n--))
 done
