@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+if [ -e README.md ]
+then
+    echo yes
+fi
